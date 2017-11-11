@@ -1,3 +1,3 @@
-def wind_speed(u, v):
-    """Calculates wind speed from u and v components."""
-    return sqrt(u * u + v * v)
+def wind_speed(u, v, w):
+    """Calculates wind speed from u, v, and w components."""
+    return sqrt(u * u + v * v * w)
